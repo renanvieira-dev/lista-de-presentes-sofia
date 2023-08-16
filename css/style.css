@@ -18,7 +18,7 @@ body {
   max-width: 1200px;
   padding: 15px;
   margin: 0 auto;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 
 .logo {
@@ -172,5 +172,37 @@ body {
 
   .gerar-pix {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .item {
+    width: 115px;
+    background-color: #ffbce8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .imagem img {
+    width: 95px;
+    border-radius: 10px;
+  }
+
+  .descricao {
+    font-size: .60rem;
+    padding-top: 5px;
+  }
+
+  .preco {
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .gerar-pix {
+    font-size: .60rem;
+    padding: 8px;
   }
 }
