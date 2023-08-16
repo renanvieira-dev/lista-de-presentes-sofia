@@ -92,7 +92,7 @@ body {
   font-size: 2rem;
   padding: 10px 0;
   background-color: #fff;
-  color: #0e9f24;
+  color: #a8297c;
   border-radius: 10px;
   margin-top: 10px;
 }
@@ -113,8 +113,8 @@ body {
 @media (max-width: 800px) {
   .logo {
     text-align: center;
-    margin-top: -5px;
     border-radius: 10px;
+    margin-top: 30px;
   }
 
   .logo img {
@@ -175,7 +175,23 @@ body {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 600px) {
+  .item {
+    width: 135px !important;
+    background-color: #ffbce8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .imagem img {
+    width: 106px !important;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 400px) {
   .item {
     width: 115px;
     background-color: #ffbce8;
@@ -204,5 +220,6 @@ body {
   .gerar-pix {
     font-size: .60rem;
     padding: 8px;
+    margin-top: 5px;
   }
 }
