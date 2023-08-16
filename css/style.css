@@ -224,6 +224,34 @@ body {
   }
 }
 
+@media (max-width: 450px) {
+  .item {
+    width: 150px !important;
+    background-color: #ffbce8;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .imagem img {
+    width: 130px !important;
+    border-radius: 10px;
+  }
+
+  .preco {
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .gerar-pix {
+    font-size: .875rem;
+    padding: 10px;
+    margin-top: 5px;
+  }
+}
+
 @media (max-width: 300px) {
   .item {
     width: 162px !important;
