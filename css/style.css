@@ -210,7 +210,6 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 0 20px;
   }
 
   .item {
@@ -336,8 +335,12 @@ body {
 }
 
 @media (max-width: 450px) {
+  .produtos {
+    padding: 10px;
+  }
+
   .item {
-    width: 150px !important;
+    width: 125px !important;
     background-color: #ffbce8;
     padding: 10px;
     border-radius: 5px;
@@ -345,8 +348,12 @@ body {
     text-align: center;
   }
 
+  .itens {
+    gap: 10px;
+  }
+
   .imagem img {
-    width: 130px !important;
+    width: 105px !important;
     border-radius: 10px;
   }
 
@@ -357,7 +364,7 @@ body {
   }
 
   .gerar-pix {
-    font-size: .875rem;
+    font-size: .75rem;
     padding: 10px;
     margin-top: 5px;
   }
