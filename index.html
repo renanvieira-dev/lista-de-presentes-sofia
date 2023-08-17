@@ -24,7 +24,7 @@
                         </div>
                         <p class="descricao">Fralda tamanho G</p>
                         <p class="preco">R$ 59,90</p>
-                        <a class="gerar-pix" href="#">Gerar o pix</a>
+                        <a class="gerar-pix" href="#" onclick="openModal();"">Gerar o pix</a>
                     </div>
                     <div class="item">
                         <div class="imagem">
@@ -32,7 +32,7 @@
                         </div>
                         <p class="descricao">Fralda tamanho G</p>
                         <p class="preco">R$ 59,90</p>
-                        <a class="gerar-pix" href="#">Gerar o pix</a>
+                        <a class="gerar-pix" href="#" onclick="openModal();">Gerar o pix</a>
                     </div>
                     <div class="item">
                         <div class="imagem">
@@ -40,7 +40,7 @@
                         </div>
                         <p class="descricao">Fralda tamanho G</p>
                         <p class="preco">R$ 59,90</p>
-                        <a class="gerar-pix" href="#">Gerar o pix</a>
+                        <a class="gerar-pix" href="#" onclick="openModal();">Gerar o pix</a>
                     </div>
                     <div class="item">
                         <div class="imagem">
@@ -48,11 +48,23 @@
                         </div>
                         <p class="descricao">Fralda tamanho G</p>
                         <p class="preco">R$ 59,90</p>
-                        <a class="gerar-pix" href="#">Gerar o pix</a>
+                        <a class="gerar-pix" href="#" onclick="openModal();">Gerar o pix</a>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="modal" id="modal">
+            <div class="content-modal">
+                <img src="./img/qr-code.png" alt="QR Code do PIX">
+                <p class="texto-pix">clique no botão abaixo para copiar <br>a chave pix ou escaneie o QR Code</p>
+                <p class="texto-chave-pix">CHAVE PIX É DO TIPO CPF</p>
+                <p id="copy-btn" class="chave-pix">CLIQUE AQUI PARA COPIAR</p>
+                <p class="cpf" id="copy-content">035.026.652-22</p>
+                <span id="close" class="close" onclick="closeModal();">x</span>
+            </div>
+        </div>
     </main>
+
+    <script src="./js/copy.js"></script>
 </body>
 </html>
