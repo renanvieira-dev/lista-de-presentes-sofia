@@ -335,7 +335,7 @@ body {
 
 @media (max-width: 400px) {
   .item {
-    width: 160px !important;
+    width: 150px !important;
     background-color: #ffbce8;
     padding: 10px;
     border-radius: 5px;
@@ -344,7 +344,8 @@ body {
   }
 
   .imagem img {
-    width: 140px !important;
+    display: block;
+    width: 130px !important;
     border-radius: 10px;
   }
 
